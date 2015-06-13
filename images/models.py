@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib import admin
 from django.contrib.auth.models import User
 from PIL import Image as PImage
-from timepass.settings import MEDIA_URL, MEDIA_ROOT
+from django.conf import MEDIA_URL, MEDIA_ROOT
 import os
 from string import join, split
 from tempfile import *
